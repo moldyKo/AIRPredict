@@ -59,6 +59,7 @@ class Settings(BaseSettings):
     ALLOWED_ORIGINS: List[str] = [
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://air-predict.vercel.app",
     ]
 
     model_config = SettingsConfigDict(
